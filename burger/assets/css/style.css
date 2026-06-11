@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* font */
+.bebas-neue {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.pacifico {
+    font-family: "Pacifico", cursive;
+}
+
+.epilogue {
+    font-family: "Epilogue", sans-serif;
+}
+
+.yello-collor {
+    color: #ffb91a;
+}
+
+.bg-red {
+    background-color: #a5141a;
+}
+
+/* start heder */
+header {
+    background: linear-gradient(rgb(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/main.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-box {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header-title1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.header-title2 {
+    font-size: 95px;
+    margin-bottom: 50px;
+    color: white;
+    line-height: 1.1;
+}
+
+.bace-link {
+    font-size: 20px;
+    padding: 15px 45px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+/* end heder */
