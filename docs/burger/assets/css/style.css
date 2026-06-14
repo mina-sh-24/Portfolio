@@ -63,6 +63,8 @@ nav {
 
 .nav-social-links {
     width: 10%;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .nav-social-links i {
@@ -128,9 +130,6 @@ nav {
 }
 
 /* end nav */
-
-
-
 
 /* start heder */
 header {
@@ -224,3 +223,85 @@ header {
     margin: 10px 0;
 }
 /* end category */
+
+/* start affer */
+.offer {
+    padding: 90px 0;
+    color: white;
+    background-image: url(../img/special-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.offer-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.offer-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-item {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/special-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 100px 40px;
+}
+
+.offer-left {
+    width: 49%;
+}
+
+.offer-right {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-item-title {
+    font-size: 45px;
+    line-height: 1.15;
+    margin-bottom: 10px;
+}
+
+.offer-item-text {
+    font-size: 15px;
+    width: 85%;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.offer-item span {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.offer-item-mini {
+    padding: 20px 40px;
+}
+
+.offer-item-mini span {
+    margin-bottom: 0;
+}
+
+.offer-item-bg1 {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/special-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offer-item-bg2 {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/special-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end affer */
