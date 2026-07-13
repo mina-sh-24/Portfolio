@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 10000px;
-}
 
 .container {
     width: 80%;
@@ -602,7 +599,7 @@ header {
 
 /* start free delivery */
 .free-delivery .concerning-img img {
-    width: 60%;
+    width: 55%;
 }
 /* end free delivery */
 
@@ -635,5 +632,117 @@ header {
     background-color: #fff;
     color: black;
 }
-
 /* end downlod */
+
+/* start footer */
+
+footer {
+    padding-top: 50px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 24%;
+}
+
+.footer-item-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-item p {
+    font-size: 15px;
+    color: gray;
+    letter-spacing: 1;
+    margin-bottom: 20px;
+    padding-top: 8px;
+}
+
+.footer-item-work-list {
+    list-style-type: square;
+    list-style-position: inside;
+    color: gray;
+}
+
+.footer-item-work-list li {
+    padding: 8px 0;
+}
+
+.footer-item-help-list {
+    list-style-type: none;
+}
+
+.footer-item-help-list li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 0;
+}
+
+.footer-item-help-list li a:hover {
+    text-decoration: underline;
+    color: #a5141a;
+}
+
+.footer-item-icon-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-item-icon-list li a {
+    width: 38px;
+    height: 38px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #a5141a;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.footer-item-icon-list li a i {
+    font-size: 20px;
+}
+
+.footer-2 {
+    margin-top: 50px;
+    border-top: 1px solid rgba(128, 128, 128, 0.393) ;
+}
+
+.footer-2-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0;
+}
+
+.footer-2-items p {
+    font-size: 16px;
+}
+
+.footer-2-items ul {
+    display: flex;
+}
+
+.footer-2-items li {
+    list-style-type: none;
+
+}
+
+.footer-2-items li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/* start footer */
